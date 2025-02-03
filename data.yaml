@@ -1,0 +1,8 @@
+
+train: /content/gdrive/MyDrive/Brain Tumor work/yolov10/brain tumor work/axial_t1wce_2_class/images/train  # train images (relative to 'path')
+val: /content/gdrive/MyDrive/Brain Tumor work/yolov10/brain tumor work/axial_t1wce_2_class/images/test  # val images (relative to 'path')
+test: /content/gdrive/MyDrive/Brain Tumor work/yolov10/brain tumor work/coronal_t1wce_2_class/images/test # test images (relative to 'path')
+
+# Classes
+nc: 2  # number of classes
+names: ['negative', 'positive']  # class names
